@@ -14,6 +14,19 @@ For this guide, the lifecycle is divided into seven phases:
 6. Release and deployment
 7. Operations and continuous monitoring
 
+```mermaid
+flowchart LR
+	A[Strategy and intake] --> B[Requirements and<br/>data classification]
+	B --> C[Architecture and design]
+	C --> D[Implementation and integration]
+	D --> E[Verification and assessment]
+	E --> F[Release and deployment]
+	F --> G[Operations and<br/>continuous monitoring]
+	G --> H{Material change or<br/>provider update?}
+	H -->|Yes| B
+	H -->|No| G
+```
+
 ## 3.1 Strategy and intake
 
 At the start, teams should decide whether the use case is allowed, valuable, and supportable in a regulated environment.

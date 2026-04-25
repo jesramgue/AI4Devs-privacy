@@ -27,6 +27,17 @@ When teams add AI, the first architectural question is whether the AI capability
 
 This distinction changes everything else.
 
+```mermaid
+flowchart TD
+	A[Add AI capability] --> B{Where does the model run?}
+	B -->|Inside boundary| C[Document hosting<br/>access controls<br/>logging and updates]
+	B -->|Hybrid| D[Document internal vs external flows<br/>inherited vs implemented controls]
+	B -->|Outside boundary| E[Assess interconnections<br/>retention<br/>provider restrictions]
+	C --> F[Update FedRAMP artifacts and tests]
+	D --> F
+	E --> F
+```
+
 ### If the model is inside the boundary
 
 You need to document the model hosting environment, access controls, network flows, model artifacts, training or fine-tuning workflows if applicable, and the operational safeguards around prompt handling, inference, logging, and updates.

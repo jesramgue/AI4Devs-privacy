@@ -86,6 +86,18 @@ The following AI changes deserve heightened review:
 
 Use this lightweight model before implementation:
 
+```mermaid
+flowchart TD
+	A[Proposed AI change] --> B{Does it change data flows<br/>providers or trust assumptions?}
+	B -->|No| C[Low impact<br/>Targeted updates and testing]
+	B -->|Yes| D{Does it add external models<br/>sensitive data movement or<br/>automated decisions?}
+	D -->|Partially| E[Moderate impact<br/>Broader SSP and architecture updates]
+	D -->|Yes| F[High impact<br/>Formal change analysis and<br/>possible AO engagement]
+	E --> G[Security review before release]
+	F --> G
+	C --> G
+```
+
 ### Low impact change
 
 The AI capability is fully internal, uses already approved data, does not change external dependencies, and is restricted to low-risk assistive functions with strong human review.
