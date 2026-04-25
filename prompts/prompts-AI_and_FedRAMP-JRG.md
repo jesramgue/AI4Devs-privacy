@@ -8,10 +8,10 @@ This prompt does not investigate a privacy technique. It focuses instead on FedR
 
 ### AI and FedRAMP for Secure SDLC and In-App Compliance
 
-I want you to act as an expert in cibersecurity, specialised with FedRAMP certifications.
+I want you to act as an expert in cybersecurity, specialised with FedRAMP certifications.
 
-- I want to know what I should consider if I want to build an application using AI during the different phases of SFDLC.
-- I also want that you investigate about AI In-App usage over already FedRAMP certified applications. What those applications need to ensure, and what extra documentation or processes needs to follow to continue be FedRAMP certified
+- I want to know what I should consider if I want to build an application using AI during the different phases of SDLC.
+- I also want that you investigate about AI In-App usage over already FedRAMP certified applications. What those applications need to ensure, and what extra documentation or processes they need to follow to continue be FedRAMP certified
 
 I want you to structure the documentation so that it starts with the most basic concepts and progresses to more complex ones, including definitions of terms and acronyms. Consider grouping the information into chapters.
 
