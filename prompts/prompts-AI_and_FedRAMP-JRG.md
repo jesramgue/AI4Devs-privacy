@@ -30,7 +30,7 @@ Finally, I would like you to give me examples based on a Salesforce application 
 ### Adding actual diagrams to the FedRAMP guide
 For the most complex concepts, consider creating Mermaid diagrams to facilitate understanding. Focus on Chapter 2,3 and 4
 
-### 
+### Adding table of contents and navigation links
 Add a table of contents at the beginning of each chapter.
 
 Add a link to the previous and next chapters at the end of each chapter.
