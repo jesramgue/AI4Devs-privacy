@@ -1,5 +1,16 @@
 # Chapter 1: Foundations, Terms, and Acronyms
 
+## Contents
+
+- [Purpose](#purpose)
+- [1.1 What FedRAMP is](#11-what-fedramp-is)
+- [1.2 What AI means in this context](#12-what-ai-means-in-this-context)
+- [1.3 Why AI changes the security and compliance conversation](#13-why-ai-changes-the-security-and-compliance-conversation)
+- [1.4 Key terms](#14-key-terms)
+- [1.5 Foundational principles for AI in regulated environments](#15-foundational-principles-for-ai-in-regulated-environments)
+- [Salesforce example](#salesforce-example)
+- [Chapter summary](#chapter-summary)
+
 ## Purpose
 
 Before discussing FedRAMP controls or AI implementation patterns, teams need a common vocabulary. Most mistakes in regulated AI programs start with unclear scope: teams say "we added AI" when what they really changed was a model provider, a retrieval layer, a prompt orchestration service, or a human-review workflow.
@@ -118,3 +129,8 @@ That is the mindset required for the rest of this guide.
 - AI capabilities must be analyzed as system components, not treated as informal add-ons.
 - The most important foundational ideas are authorization boundary, significant change, governed data flows, and evidence.
 - AI adds probabilistic behavior, model supply-chain risk, and new validation requirements.
+
+## Navigation
+
+- Previous: [Guide index](README.md)
+- Next: [Chapter 2: FedRAMP Fundamentals for AI Systems](02-fedramp-fundamentals-for-ai-systems.md)

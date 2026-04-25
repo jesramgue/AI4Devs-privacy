@@ -26,5 +26,11 @@ At least the audience should be:
 I want a documentation explanation into a new README.md with an index, how to use the guide, the audience and finally a recommended reading path.
 
 Finally, I would like you to give me examples based on a Salesforce application for each chapter or division of concepts.
+
 ### Adding actual diagrams to the FedRAMP guide
 For the most complex concepts, consider creating Mermaid diagrams to facilitate understanding. Focus on Chapter 2,3 and 4
+
+### 
+Add a table of contents at the beginning of each chapter.
+
+Add a link to the previous and next chapters at the end of each chapter.

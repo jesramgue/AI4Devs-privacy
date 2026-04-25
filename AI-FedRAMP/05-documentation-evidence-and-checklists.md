@@ -1,5 +1,17 @@
 # Chapter 5: Documentation, Evidence, and Operational Checklists
 
+## Contents
+
+- [Purpose](#purpose)
+- [5.1 Minimum documentation set for an AI feature in a FedRAMP context](#51-minimum-documentation-set-for-an-ai-feature-in-a-fedramp-context)
+- [5.2 What reviewers usually want to understand quickly](#52-what-reviewers-usually-want-to-understand-quickly)
+- [5.3 Pre-build checklist](#53-pre-build-checklist)
+- [5.4 Pre-release checklist](#54-pre-release-checklist)
+- [5.5 Post-release checklist](#55-post-release-checklist)
+- [5.6 Suggested evidence matrix](#56-suggested-evidence-matrix)
+- [5.7 Salesforce implementation checklist](#57-salesforce-implementation-checklist)
+- [Chapter summary](#chapter-summary)
+
 ## Purpose
 
 This chapter turns the earlier concepts into concrete execution artifacts. It is intended for security, compliance, product, and engineering teams that need a working checklist.
@@ -93,3 +105,8 @@ For a Salesforce AI assistant, a practical checklist would include:
 - FedRAMP-relevant AI work must produce documentation and evidence, not only implementation.
 - Boundary, data flows, safeguards, testing, and monitoring are the core topics every reviewer will examine.
 - Checklists help avoid late-stage surprises and should be used before build, before release, and after release.
+
+## Navigation
+
+- Previous: [Chapter 4: AI In-App Features in Existing FedRAMP-Authorized Systems](04-ai-in-app-for-existing-fedramp-systems.md)
+- Next: [References](06-references.md)

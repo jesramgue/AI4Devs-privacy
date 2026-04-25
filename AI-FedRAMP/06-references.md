@@ -1,5 +1,11 @@
 # References
 
+## Contents
+
+- [Primary references](#primary-references)
+- [FedRAMP artifacts and topics to validate against current program materials](#fedramp-artifacts-and-topics-to-validate-against-current-program-materials)
+- [Notes on this guide](#notes-on-this-guide)
+
 ## Primary references
 
 1. NIST AI Risk Management Framework 1.0
@@ -39,3 +45,8 @@ FedRAMP guidance, templates, and required processes change over time. Before shi
 - the sponsoring agency,
 - your 3PAO if one is involved,
 - and your organization's security, privacy, and legal stakeholders.
+
+## Navigation
+
+- Previous: [Chapter 5: Documentation, Evidence, and Operational Checklists](05-documentation-evidence-and-checklists.md)
+- Next: [Guide index](README.md)

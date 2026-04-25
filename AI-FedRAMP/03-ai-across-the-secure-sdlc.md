@@ -1,5 +1,17 @@
 # Chapter 3: AI Across the Secure SDLC
 
+## Contents
+
+- [Purpose](#purpose)
+- [3.1 Strategy and intake](#31-strategy-and-intake)
+- [3.2 Requirements and data classification](#32-requirements-and-data-classification)
+- [3.3 Architecture and design](#33-architecture-and-design)
+- [3.4 Implementation and integration](#34-implementation-and-integration)
+- [3.5 Verification and assessment](#35-verification-and-assessment)
+- [3.6 Release and deployment](#36-release-and-deployment)
+- [3.7 Operations and continuous monitoring](#37-operations-and-continuous-monitoring)
+- [Chapter summary](#chapter-summary)
+
 ## Purpose
 
 This chapter maps AI-specific considerations to the secure software development lifecycle. The goal is to prevent teams from discovering compliance blockers late in testing or during authorization review.
@@ -203,3 +215,8 @@ If the summarization quality drops after a provider-side model update, the team 
 - The most important early deliverables are data classification, boundary analysis, and threat modeling.
 - Verification must include adversarial and policy-focused tests, not just happy-path functional checks.
 - Operations must monitor both classic security signals and AI-specific behavior changes.
+
+## Navigation
+
+- Previous: [Chapter 2: FedRAMP Fundamentals for AI Systems](02-fedramp-fundamentals-for-ai-systems.md)
+- Next: [Chapter 4: AI In-App Features in Existing FedRAMP-Authorized Systems](04-ai-in-app-for-existing-fedramp-systems.md)

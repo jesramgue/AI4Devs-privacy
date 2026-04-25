@@ -1,5 +1,17 @@
 # Chapter 2: FedRAMP Fundamentals for AI Systems
 
+## Contents
+
+- [Purpose](#purpose)
+- [2.1 FedRAMP is a control and evidence program](#21-fedramp-is-a-control-and-evidence-program)
+- [2.2 The authorization boundary is the first design question](#22-the-authorization-boundary-is-the-first-design-question)
+- [2.3 AI features often touch multiple control families at once](#23-ai-features-often-touch-multiple-control-families-at-once)
+- [2.4 FedRAMP does not remove privacy or agency-specific obligations](#24-fedramp-does-not-remove-privacy-or-agency-specific-obligations)
+- [2.5 NIST guidance that is especially useful for AI-enabled FedRAMP systems](#25-nist-guidance-that-is-especially-useful-for-ai-enabled-fedramp-systems)
+- [2.6 Common architectural questions to answer before building](#26-common-architectural-questions-to-answer-before-building)
+- [Salesforce example](#salesforce-example)
+- [Chapter summary](#chapter-summary)
+
 ## Purpose
 
 This chapter connects core FedRAMP concepts to AI-enabled architectures. The main question is not "can we use AI?" The real question is "how does AI affect the authorized system, the control narrative, and the evidence expected by reviewers and agencies?"
@@ -118,3 +130,8 @@ If those questions are unresolved, the system is not ready for a compliant imple
 - AI features usually affect multiple FedRAMP control areas simultaneously.
 - External model dependencies require careful interconnection and data handling analysis.
 - NIST AI RMF, SSDF, and SP 800-218A are practical implementation companions to FedRAMP documentation.
+
+## Navigation
+
+- Previous: [Chapter 1: Foundations, Terms, and Acronyms](01-foundations-terms-and-acronyms.md)
+- Next: [Chapter 3: AI Across the Secure SDLC](03-ai-across-the-secure-sdlc.md)

@@ -1,5 +1,17 @@
 # Chapter 4: AI In-App Features in Existing FedRAMP-Authorized Systems
 
+## Contents
+
+- [Purpose](#purpose)
+- [4.1 The first question: what exactly is changing?](#41-the-first-question-what-exactly-is-changing)
+- [4.2 What an already authorized application must ensure](#42-what-an-already-authorized-application-must-ensure)
+- [4.3 Extra documentation and process typically needed](#43-extra-documentation-and-process-typically-needed)
+- [4.4 Scenarios that usually require special scrutiny](#44-scenarios-that-usually-require-special-scrutiny)
+- [4.5 A practical decision model for change impact](#45-a-practical-decision-model-for-change-impact)
+- [4.6 Common mistakes](#46-common-mistakes)
+- [Salesforce example](#salesforce-example)
+- [Chapter summary](#chapter-summary)
+
 ## Purpose
 
 This chapter addresses the most common real-world scenario: a product is already FedRAMP authorized, and the team wants to add AI-driven functionality inside the application.
@@ -163,3 +175,8 @@ To remain in a defensible FedRAMP posture, the provider should at least:
 - The core questions are boundary impact, data movement, external dependency risk, and control changes.
 - Most AI additions require documentation updates, targeted testing, and formal change governance.
 - Higher-risk AI features may require broader reassessment and stakeholder approval before release.
+
+## Navigation
+
+- Previous: [Chapter 3: AI Across the Secure SDLC](03-ai-across-the-secure-sdlc.md)
+- Next: [Chapter 5: Documentation, Evidence, and Operational Checklists](05-documentation-evidence-and-checklists.md)
